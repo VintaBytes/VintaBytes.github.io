@@ -1,95 +1,84 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="es-AR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Apoyar el proyecto | VintaBytes</title>
-  <meta name="description" content="Formas actualizadas de apoyar el proyecto educativo VintaBytes.">
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../css/site.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apoyar el proyecto VintaBytes</title>
+  <meta name="description" content="Formas actualizadas de apoyar voluntariamente el proyecto educativo VintaBytes." />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../css/site.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="../">
-      <img src="../assets/logo.svg" alt="VintaBytes" class="brand-logo">
-      <span>VintaBytes</span>
-    </a>
-    <nav class="site-nav" aria-label="Navegación principal">
-      <a href="../">Inicio</a>
-    </nav>
-  </header>
+  <main class="page shell">
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="Inicio de VintaBytes">
+        <img src="../assets/logo.svg" alt="" class="brand-logo" />
+        <span>VintaBytes</span>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="./" aria-current="page">Apoyar</a>
+      </nav>
+    </header>
 
-  <main class="page">
-    <section class="card support-card">
-      <p class="eyebrow">Apoyo voluntario</p>
+    <section class="hero card">
+      <p class="eyebrow">Aporte voluntario</p>
       <h1>Apoyá el proyecto VintaBytes</h1>
       <p class="lead">
-        Miles de personas utilizan gratuitamente los libros, cuadernos y proyectos que desarrollo para aprender programación, ciencia de datos e inteligencia artificial.
+        Los libros, cuadernos y proyectos de VintaBytes se comparten de forma gratuita.
+        Si alguno de estos materiales te resultó útil y querés colaborar para que pueda seguir creando contenido libre en español, podés hacerlo desde esta página.
       </p>
-      <p>
-        Todo ese material continuará siendo gratuito. Si alguno de esos recursos te resultó útil y querés colaborar para que pueda seguir creando nuevos contenidos, podés hacerlo mediante cualquiera de los siguientes medios.
+      <p class="note">
+        Tu aporte es completamente voluntario. El acceso al material no depende de ninguna colaboración económica.
       </p>
     </section>
 
-    <section class="support-grid" aria-label="Formas de apoyar">
-      <article class="card support-option">
-        <h2>🇦🇷 Si estás en Argentina</h2>
-        <p>Podés colaborar mediante Mercado Pago o transferencia.</p>
-
-        <div class="button-stack">
-          <a class="button primary" href="https://www.mercadopago.com.ar/" target="_blank" rel="noopener noreferrer">
-            Mercado Pago
-          </a>
-          <a class="button secondary" href="#alias">
-            Ver alias de transferencia
-          </a>
+    <section class="grid" aria-label="Formas de apoyo">
+      <article class="card payment-card">
+        <h2>🇦🇷 Desde Argentina</h2>
+        <p>
+          Podés colaborar mediante Mercado Pago o transferencia a una cuenta argentina.
+        </p>
+        <div class="qr-box">
+          <img src="../images/qr-mercadopago-placeholder.svg" alt="Código QR de Mercado Pago pendiente de reemplazo" />
         </div>
-
-        <div id="alias" class="info-box">
-          <p class="label">Alias sugerido</p>
-          <p class="alias">VINTABYTES.APORTES</p>
-          <p class="note">Reemplazá este texto por tu alias real antes de publicar.</p>
-        </div>
+        <p class="small">
+          Reemplazar esta imagen por tu QR definitivo de Mercado Pago o por un QR de transferencia.
+        </p>
+        <a class="button primary" href="#" aria-disabled="true">Mercado Pago</a>
+        <p class="small muted">
+          Alias sugerido: <strong>VINTABYTES.APORTES</strong><br />
+          Cambiar por el alias real antes de publicar.
+        </p>
       </article>
 
-      <article class="card support-option">
-        <h2>🌎 Si estás fuera de Argentina</h2>
-        <p>Podés utilizar una opción internacional. Este enlace se puede cambiar en el futuro sin modificar los libros ya publicados.</p>
-
-        <div class="button-stack">
-          <a class="button primary" href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">
-            PayPal
-          </a>
-          <a class="button secondary" href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer">
-            Ko-fi / alternativa futura
-          </a>
-        </div>
+      <article class="card payment-card">
+        <h2>🌎 Desde otros países</h2>
+        <p>
+          Si estás fuera de Argentina, podés usar una opción internacional. Este enlace puede apuntar a PayPal, Ko-fi, Buy Me a Coffee o a un Link de Pago compatible.
+        </p>
+        <a class="button secondary" href="#" aria-disabled="true">Apoyar desde el exterior</a>
+        <p class="small muted">
+          Reemplazar este botón por el enlace internacional elegido.
+        </p>
       </article>
     </section>
 
-    <section class="card">
-      <h2>¿En qué se utilizan los aportes?</h2>
-      <p>Los aportes ayudan a cubrir parte de los costos del proyecto:</p>
-      <ul class="clean-list">
-        <li>desarrollo de nuevos libros;</li>
-        <li>revisión técnica;</li>
-        <li>hosting, dominios y herramientas;</li>
-        <li>equipamiento;</li>
-        <li>horas de investigación y preparación de materiales.</li>
-      </ul>
+    <section class="card content-section">
+      <h2>¿En qué se utiliza el dinero?</h2>
+      <p>
+        Los aportes ayudan a sostener el desarrollo de nuevos libros, la revisión técnica, el mantenimiento de recursos digitales, dominios, herramientas, equipamiento y horas de investigación.
+      </p>
     </section>
 
-    <section class="card soft-card">
-      <h2>¿No podés colaborar económicamente?</h2>
+    <section class="card content-section thanks">
+      <h2>Gracias por formar parte</h2>
       <p>
-        No pasa nada. Compartir un libro, recomendar el proyecto o reportar un error también es una forma enorme de ayudar.
+        Cada colaboración, por pequeña que sea, ayuda a que VintaBytes pueda seguir publicando contenido libre y gratuito en español.
       </p>
-      <p><strong>Gracias por formar parte de VintaBytes.</strong></p>
+      <p>
+        Si no podés colaborar económicamente, no pasa nada. Compartir un libro, recomendar el proyecto o reportar un error también es una forma enorme de ayudar.
+      </p>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <p>© VintaBytes. Esta página puede actualizarse sin modificar los PDFs ya publicados.</p>
-  </footer>
 </body>
 </html>
